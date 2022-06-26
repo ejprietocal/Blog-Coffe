@@ -176,3 +176,14 @@ img{
     background-color: var(--negro);
 }
 
+/*about us*/
+.sobre-nosotros{
+    display: grid;
+}
+@media (min-width:768px ){
+    .sobre-nosotros{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
